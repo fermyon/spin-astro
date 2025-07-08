@@ -3,7 +3,7 @@
 This is a simple [Astro](https://docs.astro.build/en/getting-started/) starter web app that runs (and deploys) as a WebAssembly app using [Spin](https://spinframework.dev/).
 
 
-### Build
+## Build
 
 ```
 npm run build
@@ -12,7 +12,7 @@ npm run build
 Re-compiles the Astro site to the `/dist` directory. This directory can be [modified](https://docs.astro.build/en/reference/configuration-reference/#base) in the Astro config.mjs file.
 
 
-### Dev
+## Dev
 
 ```
 npm run dev
@@ -36,9 +36,10 @@ Serving http://0.0.0.0:4321
 This will serve the Astro site at [http://0.0.0.0:4321](http://0.0.0.0:4321)
 
 
-### Deploy
+## Deploy
 
-**Fermyon Wasm Functions Deployment:**
+#### Fermyon Wasm Functions Deployment:  
+
 Run your site as a fast Wasm Function on the edge - ideal for ultra-fast performance.
 
 ```
@@ -59,7 +60,8 @@ App Routes:
 [Deploy Example](https://c6ae6179-482f-4389-8ae1-61450910d5fc.aka.fermyon.tech)
 
 
-**Fermyon Cloud Deployment:**
+#### Fermyon Cloud Deployment:
+
 Run your site on Fermyon Cloud - ideal for simple starter apps.
 
 ```
