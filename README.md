@@ -36,33 +36,28 @@ Serving http://0.0.0.0:4321
 This will serve the Astro site at [http://0.0.0.0:4321](http://0.0.0.0:4321)
 
 
-## Deploy
+## Deployment
 
-#### Fermyon Wasm Functions Deployment:  
+#### Deploy to Fermyon Wasm Functions:  
 
-Run your site as a fast Wasm Function on the edge - ideal for ultra-fast performance.
+Run your site via the [Fermyon Wasm Functions](https://www.fermyon.com/wasm-functions) edge service - ideal for ultra-fast performance.
 
 ```
 spin aka login
 spin aka deploy
-```
 
-This will deploy and distribute your application to [Fermyon Wasm Functions](https://developer.fermyon.com/wasm-functions/quickstart), which runs on Akamai's distributed compute network. Learn more in [the Docs here](https://developer.fermyon.com/wasm-functions/index#application-deployment).
-
-```
 Deploying app to Fermyon Wasm Functions... 
 Waiting for app to be ready...
-
-App Routes:
-- spin-astro: https://c6ae6179-482f-4389-8ae1-61450910d5fc.aka.fermyon.tech
 ```
 
-[Deploy Example](https://c6ae6179-482f-4389-8ae1-61450910d5fc.aka.fermyon.tech)
+This will deploy and distribute your app via Fermyon Wasm Functions, which runs on Akamai's distributed compute network. Learn more in [the Docs here](https://developer.fermyon.com/wasm-functions/index#application-deployment).
+
+Example: [https://c6ae6179-482f-4389-8ae1-61450910d5fc.aka.fermyon.tech](https://c6ae6179-482f-4389-8ae1-61450910d5fc.aka.fermyon.tech)
 
 
-#### Fermyon Cloud Deployment:
+#### Deploy to Fermyon Cloud:
 
-Run your site on Fermyon Cloud - ideal for simple starter apps.
+Run your site on [Fermyon Cloud](https://www.fermyon.com/cloud) - ideal for simple starter apps.
 
 ```
 spin cloud deploy
@@ -73,7 +68,7 @@ Waiting for application to become ready........
 https://spin-astro-starter-dgiqdewz.fermyon.app/
 ```
 
-[Deploy Example](https://spin-astro-starter-dgiqdewz.fermyon.app/)
+Example: [https://spin-astro-starter-dgiqdewz.fermyon.app](https://spin-astro-starter-dgiqdewz.fermyon.app/)
 
 ---
 
