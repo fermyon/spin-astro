@@ -3,6 +3,9 @@ dist/
 
 # generated types
 .astro/
+.spin
+.spin-aka
+logs/
 
 # dependencies
 node_modules/
